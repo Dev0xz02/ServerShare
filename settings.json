@@ -1,0 +1,15 @@
+{
+    "token": "EXAMPLE.DISCORD.TOKEN",
+    "prefix": ";",
+    "splitkey": "/",
+
+    "ownerId": "yourdiscordidhere",
+    "appOnlyRoleId": "applicationmodroleidhere",
+    "gameModRoleId": "gamemoderatorroleidhere",
+    "gameDevId": "gamedeveloperidhere",
+
+    "server": {
+        "name": "server",
+        "connectionkey": "connectionkey"
+    }
+}

@@ -1,41 +1,25 @@
-# Compiled Lua sources
-luac.out
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+# luvit programs
+lit
+luvi
+luvit
+lit.exe
+luvi.exe
+luvit.exe
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+# logs and databases
+*.log
+*.sql
+*.sqlite
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
+# packages
+/deps
+/.cache

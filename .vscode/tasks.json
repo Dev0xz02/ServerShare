@@ -1,0 +1,25 @@
+{
+	"version": "2.0.0",
+
+	"tasks": [
+		{
+			"type": "shell",
+			"command":"lit install SinisterRectus/discordia",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "Install deps."
+		},
+	
+        {
+			"type": "shell",
+			"command":"lit install SinisterRectus/discordia\nluvit ./main.lua",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"label": "Install deps & Test"
+		}
+	]
+}
