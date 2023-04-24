@@ -6,7 +6,7 @@ Requires [**Luvit**](https://luvit.io/), [**Discordia**](https://github.com/Sini
 
 ## License
 
-ServerShare is licensed under the GNU GPL v2 license. [View it here.](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
+ServerShare is licensed under the GNU GPL v2 license. [View it here.](https://github.com/Dev0xz02/ServerShare/blob/main/LICENSE)
 
 ## Disclamer
 
