@@ -1,4 +1,7 @@
-# ServerShare-DEV
+# ServerShare
+![Luvit](https://img.shields.io/badge/Luvit-v2.0-blue.svg?logo=lua&link=https%3A%2F%2Fluvit.io%2F)
+![Version](https://img.shields.io/badge/Version-v1.2%20DeveloperBuild-darkblue.svg)
+![Roblox](https://img.shields.io/badge/Made%20For-Roblox-red.svg?logo=roblox&link=https%3A%2F%2Froblox.com%2F)
 
 A simple Discord bot that connects to a Roblox game.
 
@@ -16,19 +19,19 @@ If you see ServerShare running in a script builder, it is most likely with a cus
 
 ## Setup
 
-You need luvit installed. To install luvit, you need go to the official website [right here](https://luvit.io/install.html).
+You need Luvit installed. To install Luvit, follow the instructions [here](https://luvit.io/install.html).
 
-After you installed luvit, you need to install all deps. Open the folder where is your ServerShare located, and run `lit install SinisterRectus/discordia`.
+After you installed Luvit, you need to install all deps. Open the folder where is your ServerShare located, and run `lit install SinisterRectus/discordia`.
 
 After you installed all deps required, now you need configure your `settings.json`. Here is the example of `settings.json`:
 
 ```json
 {
     "token": "EXAMPLE.DISCORD.TOKEN", // Discord token here.
-    "prefix": ";", // Your prefix here.
-    "splitkey": "/", // Split key. Example: ;commands/2
+    "prefix": ";", // Your Discord's bot prefix here. Required.
+    "splitkey": "/", // Split key. Required. Example: ;commands/2, ;ban/Player/Reason, ;kick/Player/Reason.
 
-    "ownerId": "yourdiscordidhere", // Your discord ID here.
+    "ownerId": "yourdiscordidhere", // Your Discord ID here. Required, or most commands wont execute.
     "appOnlyRoleId": "applicationmodroleidhere", // Application Mod Role ID here. Required, or you cant add/remove mods.
     "gameModRoleId": "gamemoderatorroleidhere", // Game Moderator Role ID here. Required, or you can't ban, kick etc.
     "gameDevId": "gamedeveloperidhere", // Game Developer Role ID here. Not required.
@@ -38,7 +41,6 @@ After you installed all deps required, now you need configure your `settings.jso
         "connectionkey": "connectionkey"
     }
 }
-
 
 // Please, remove any comments, or JSON file will not work!
 ```
