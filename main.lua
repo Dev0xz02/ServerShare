@@ -1246,7 +1246,7 @@ botClient:on('ready', function()
     botClient:setStatus('dnd')
     botClient:setActivity(settings.prefix .. 'commands')
 
-    print('Bot logged in into '..client.user.username..".")
+    print('Bot logged in into '..botClient.user.username..".")
 end)
 
 botClient:run('Bot ' .. settings.token)
