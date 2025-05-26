@@ -1,20 +1,3 @@
 {
-    "url": "wss://gateway.discord.gg",
-    
-    "1087449221839454209": {
-        "owner": {
-            "display_name": null,
-            "flags": 64,
-            "avatar_decoration": "v2_a_ffed32256ce57750cc9a87ed62b0a5ba",
-            "username": "-1",
-            "discriminator": "0010",
-            "id": "731456367134769203",
-            "global_name": null,
-            "public_flags": 64,
-            "avatar": null
-        },
-
-        "shards": 1,
-        "timestamp": 1681396288
-    }
+    "url": "wss://gateway.discord.gg"
 }
